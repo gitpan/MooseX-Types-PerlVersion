@@ -25,4 +25,4 @@ requires:
   warnings: 0
 resources:
   repository: git://github.com/moltar/MooseX-Types-PerlVersion.git
-version: v0.1.0
+version: 0.002

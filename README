@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution MooseX-Types-PerlVersion,
-version v0.1.0:
+version 0.002:
 
   L<Perl::Version> type for Moose classes
 

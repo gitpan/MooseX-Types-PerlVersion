@@ -5,10 +5,11 @@ package MooseX::Types::PerlVersion;
 use strict;
 use warnings;
 
-use Perl::Version; our $VERSION = Perl::Version->new('v0.1.0');
+our $VERSION = '0.002';
 
 use MooseX::Types -declare => [qw(PerlVersion)];
 use MooseX::Types::Moose qw(Num Str);
+use Perl::Version;
 use namespace::clean;
 
 class_type 'Perl::Version';
@@ -34,7 +35,7 @@ MooseX::Types::PerlVersion - L<Perl::Version> type for Moose classes
 
 =head1 VERSION
 
-version v0.1.0
+version 0.002
 
 =head1 SYNOPSIS
 
